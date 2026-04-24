@@ -1,2 +1,4 @@
 # Aero-Path-Optimizer
-AeroPath Optimizer is a C++ flight route management system using graph algorithms (Dijkstra, Bellman-Ford, A*) to find optimal routes. Features include booking, sorting, BFS/DFS reachability, auto-suggestions, and DOT export for visualization.
+AeroPath Optimizer is a C++-based flight route optimization and management system that models air travel networks using graph data structures. It computes the shortest, fastest, and most cost-effective routes between cities using advanced algorithms like Dijkstra, Bellman-Ford, and A* search.
+The system also includes features such as reachability analysis (BFS/DFS), flight sorting, auto-suggestions for city search, ticket booking and cancellation, and data persistence using file handling. Additionally, it supports exporting the route network as a DOT file for visualization using Graphviz.
+Built with a modular architecture, the project demonstrates practical applications of graph theory, efficient data structures, and algorithm design in solving real-world routing problems.
